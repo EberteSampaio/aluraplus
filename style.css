@@ -1,0 +1,222 @@
+/*----------------------------------------------configurções-globais----------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --cor-titulo:         #ffffff;
+    --cor-sub-titulo:     #C0C0C0;
+    --cor-textos:         #ebebeb;
+    --cor-botao:          #167BF7;
+    --cor-fundo:          #00030C;
+    --fonte-principal:      'Inter';
+}
+
+* {
+    margin:                 0;
+    padding:                0;
+}
+/*---------------------------------------------------------------inicio-css-notebooks/pc----------------------------------------------------------------*/
+body {
+    font-family:            var(--fonte-principal);
+    background-color:       var(--cor-fundo);
+    color:                  var(--cor-textos);
+
+    font-size:              16px;
+    font-weight:            400;
+}
+
+.container {
+    display:               grid;
+    height:                100vh;
+    grid-template-columns: 50% 50%;
+}
+
+/*----------------------------------------------------------------------Section-1-----------------------------------------------------------------------*/
+
+.conteudo__informacoes{
+    background-image:      url(img/Background.png);
+
+    background-repeat:     no-repeat;
+    background-size:       contain;
+    align-items:           center;
+    text-align:            center;
+}
+
+.container__box__um{
+    margin:                 0 6em;
+}
+
+.conteudo__informacoes__titulo{
+    font-size:              28px;
+    font-weight:            700;
+}
+
+.section__imagem__um {
+    margin:                 1em 0 2em 0;
+}
+
+.conteudo__informacoes__botao{
+    background-color:       var(--cor-botao);
+    color:                  var(--cor-textos);
+
+    text-decoration:        none;
+    display:                block;
+    border-radius:          5px;
+    padding:                1em;
+    margin-bottom:          1em;
+}
+
+.conteudo__informacoes__botao:hover{
+    background-color:     rgb(97, 136, 228);
+    color:                rgb(0, 0, 0);
+
+}
+
+.botao__secundario{
+    border:                 2px solid var(--cor-titulo);
+    background-color:       transparent;
+    
+}
+
+.conteudo__informacoes__aviso{
+    color:                  var(--cor-textos);
+
+    font-size:              12px;
+}
+
+/*----------------------------------------------------------------------Section-2-----------------------------------------------------------------------*/
+
+.conteudo__informacoes__dois{
+    align-items:            center;
+
+    margin:                 0 10em;
+}
+
+.section__imagem__dois{
+    width:                  80%;
+}
+
+.container__box__dois__titulo{
+    color:                  var(--cor-titulo);
+
+    font-weight:            700;
+    font-size:              48px;
+    margin-bottom:          0.5em;
+}
+
+.container__box__dois__texto{
+    color:                  var(--cor-textos);
+}
+
+/*----------------------------------------------------------------------Section-3-----------------------------------------------------------------------*/
+
+.conteudo__informacoes__tres{
+    align-items:            center;
+
+    margin:                 0 10em;
+}
+
+.container__box__tres{
+    padding:                0em;
+}
+
+.container__box__tres__texto{
+    color:                  var(--cor-textos);
+
+    margin-bottom:          1em;
+    margin-right:           5.5em;
+}
+
+.secundario__botao{
+    display:                inline-block;
+}
+
+.section__imagem__tres{
+    width:                  100%;
+}
+
+/*----------------------------------------------------------------------Section-4-----------------------------------------------------------------------*/
+
+.section__imagem__dois_new{
+    width:                  90%;
+}
+
+/*----------------------------------------------------------------------Section-5-----------------------------------------------------------------------*/
+
+.dispositivos{
+    text-align:             center;
+
+    margin-top:             5em;
+}
+
+.dispositivos__titulo{
+    color:                  var(--cor-titulo);
+
+    font-size:              38px;
+    font-weight:            700;
+}
+
+.dispositivos__lista{
+    display:                flex;
+    justify-content:        center;
+    list-style-type:        none;
+
+    margin:  5em 0;
+}
+/*------------------------------------------------------------------------Rodape------------------------------------------------------------------------*/
+
+.rodape{
+    text-align:             center;
+
+    margin-top:             13em;
+}
+
+.rodape__imagem{
+    width:                  102px;
+    height:                 35.28px;
+}
+
+.rodape_itens{
+    display:                flex;
+    flex-direction:         column;
+    
+}
+.ropade__lista{
+    display:                flex;
+    justify-content:        center;
+    list-style-type:        none;
+
+    margin:                 3em 0;
+    
+
+}
+
+.lista__info{
+    color:                  var(--cor-textos);
+
+    margin:                 0 0.5em;
+    text-decoration:        none;
+}
+
+.ropade__texto{
+    color:                  var(--cor-sub-titulo);
+
+    margin:                 0 1.5em 5em 1.5em;
+    text-align:             center;
+    
+}
+
+.ropade__texto > span{
+    display:                block;
+    margin-bottom:          2em;
+}
+
+.ropade__lista a:hover{
+    color:                  var(--cor-botao);
+}
+
+.ropade__lista a:active{
+    color:                 red;
+}
+/*-----------------------------------------------------------------fim-css-notebooks/pc-----------------------------------------------------------------*/
+
